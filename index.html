@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/scripts.js" defer></script>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Проект о чае и кофе</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__fixed">
+        <div class="header__nav">
+          <a href="#" class="header__brand">Проект о чае и кофе</a>
+
+          <nav class="nav">
+            <button class="nav__burger" aria-label="Открыть меню">
+              <span class="nav__burger-line"></span>
+              <span class="nav__burger-line"></span>
+              <span class="nav__burger-line"></span>
+            </button>
+
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="buy-1"><b>Купить чай</b>🍵</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="buy-2"><b>Купить кофе</b>☕</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="advantages"><b>Наши преимущества</b>🧮</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="callback"><b>Заказать звонок</b>📞</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <section class="headinfo">
+        <div class="headinfo__content">
+          <h1 class="headinfo__title">Проект о чае и кофе</h1>
+          <p class="headinfo__subtitle">Мы работаем для того, чтобы лучшие сорта чая и кофе были доступны вам.</p>
+          <a href="#callback" class="button" data-scroll-to="callback">Оформление заказа и консультация</a>
+        </div>
+      </section>
+    </header>
+
+    <section class="section mix-bgcolor">
+      <div class="section__container">
+        <h2 class="section__title"><b>Проект о чае и кофе</b></h2>
+        <div class="cards">
+          <article class="card" data-scroll-to="buy-1">
+            <div class="card__content">
+              <h2 class="card__title"><b>Купить чай</b>🍵</h2>
+              <p class="card__text"><b>Чай</b> – это не просто напиток, это история, начавшаяся в древние времена в далеких уголках Востока.</p>
+              <p class="card__text">У нас вы найдёте разнообразие видов чая, каждый из которых поражает своими неповторимыми характеристиками.</p>
+            </div>
+            <div class="card__imgwrap">
+              <img src="./images/tea-info.png" alt="Чай" class="card__image" />
+            </div>
+          </article>
+
+          <article class="card" data-scroll-to="buy-2">
+            <div class="card__content">
+              <h2 class="card__title"><b>Купить кофе</b>☕</h2>
+              <p class="card__text"><b>Кофе</b> — это не просто напиток, это настоящая культура, которая пронизывает общество со всего мира.</p>
+              <p class="card__text">Мы работаем для того, чтобы с каждой покупкой вы получали не только качественный товар, но и отличное настроение!</p>
+            </div>
+            <div class="card__imgwrap">
+              <img src="./images/coffee-info.png" alt="Кофе" class="card__image"/>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-section="buy-1">
+      <div class="section__container">
+        <h2 class="section__title"><b>Купить чай</b>🍵</h2>
+        <div class="content">
+          <div class="content__column">
+            <p>Вот некоторые из наиболее популярных видов чая которые у нас есть в наличии:</p>
+            <ul class="list">
+              <li class="list__item"><b>Черный чай.</b> Этот вид чая изготавливается путем окисления листьев чайного куста. Он обладает насыщенным вкусом и ароматом, а также содержит высокий уровень кофеина. Черный чай часто употребляется с молоком или сахаром, но его также можно наслаждаться в чистом виде.</li>
+              <li class="list__item"><b>Зеленый чай.</b> Зеленый чай производится путем обработки свежих листьев чайного куста без окисления. Он обладает нежным вкусом и ароматом, содержит меньше кофеина, чем черный чай, и обладает высоким содержанием антиоксидантов, что делает его полезным для здоровья.</li>
+              <li class="list__item"><b>Белый чай.</b> Белый чай производится из молодых побегов чайного куста, которые не подвергаются окислению. Он обладает нежным вкусом и ароматом с легкими цветочными и фруктовыми нотками.</li>
+            </ul>
+            <a href="#" class="button content__button" data-scroll-to="callback">Купить чай🍵</a>
+          </div>
+          <div class="content__column">
+            <img src="./images/tea.jpg" alt="Чай" class="circle" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mix-bgcolor" data-section="advantages">
+      <div class="section__container">
+        <h2 class="section__title"><b>Наши преимущества</b>🧮</h2>
+        <div class="advantages">
+          <div class="advantage">
+            <img src="./images/mug-hot.svg" alt="Качество" class="advantage__icon" />
+            <h3 class="advantage__title">Высокое качество чая и кофе</h3>
+            <p class="advantage__text">Качество продукции подтверждено сертификатами.</p>
+          </div>
+          <div class="advantage">
+            <img src="./images/envelope.svg" alt="Удобство" class="advantage__icon" />
+            <h3 class="advantage__title">Удобство оформления</h3>
+            <p class="advantage__text">Оформление заказа 24/7, через меню "Заказать звонок".</p>
+          </div>
+          <div class="advantage">
+            <img src="./images/truck.svg" alt="Доставка" class="advantage__icon" />
+            <h3 class="advantage__title">Оперативная доставка</h3>
+            <p class="advantage__text">Курьерская доставка покупки в течение суток.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-section="buy-2">
+      <div class="section__container">
+        <h2 class="section__title"><b>Купить кофе</b>☕</h2>
+        <div class="content">
+          <div class="content__column">
+            <p>В зависимости от степени обжарки зёрен кофе можно получить разнообразные оттенки вкуса — от нежно фруктовых и цветочных нот до богатых и глубоких шоколадных и ореховых оттенков. Вот некоторые из наиболее популярных видов зёрен кофе которые у нас есть в наличии:</p>
+            <ul class="list">
+              <li class="list__item"><b>Светлая обжарка.</b> В этом случае зёрна обжариваются до того момента, когда они достигают первой или второй стадии обжарки. Светлая обжарка сохраняет натуральные кислоты и ароматы зерен, создавая напиток с более яркими и сложными вкусовыми оттенками.</li>
+              <li class="list__item"><b>Средняя обжарка.</b> Зёрна обжариваются до того момента, когда они достигают середины стадии обжарки. Этот тип обжарки обеспечивает баланс между кислотностью и сладостью, создавая напиток с умеренным уровнем кислотности и нотками орехов и шоколада.</li>
+              <li class="list__item"><b>Темная обжарка.</b> Зёрна обжариваются до того момента, когда они достигают конца стадии обжарки. Темная обжарка придает кофе глубокий и насыщенный вкус, сильный аромат и горчинку. Такой кофе обычно имеет шоколадные, карамельные и пряные оттенки.</li>
+            </ul>
+            <a href="#" class="button content__button" data-scroll-to="callback">Купить кофе☕</a>
+          </div>
+          <div class="content__column">
+            <img src="./images/coffee.jpg" alt="Кофе" class="circle" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mix-bgcolor" data-section="callback">
+      <div class="section__container">
+        <h2 class="section__title"><b>Заказать звонок</b>📞</h2>
+        <div class="callback">
+          <div class="callback__left">
+            <img src="./images/telefonnaya-trubka.jpg" alt="Заказать звонок" class="circle" />
+            <p class="callback__descr">Заказать бесплатно обратный звонок и консультацию!</p>
+          </div>
+          <div class="callback__right">
+            <form class="form">
+              <div class="form__group">
+                <label class="form__label"><b>Ваше имя</b>:</label>
+                <input type="text" class="form__input" placeholder="например: Руслан или Людмила :)"/>
+              </div>
+              <div class="form__group">
+                <label class="form__label"><b>Ваш номер телефон</b>:</label>
+                <input type="tel" class="form__input" placeholder="например: 8 (916) 777-77-77"/>
+              </div>
+              <div class="form__group">
+                <label class="form__label"><b>Тема сообщения</b>:</label>
+                <textarea class="form__input"></textarea>
+			  </div>
+			  <div class="form__group">
+                <label class="form__label"><b>Текст сообщения</b>:</label>
+                <textarea class="form__input"></textarea>
+			  </div>
+              <button type="submit" class="button form__button">Перезвоните мне</button>
+			  <p>Нажимая на кнопку <b>«Перезвоните мне»</b>, я даю <a class="text-brown text-underline" href='#top' data-toggle='collapse' data-target='#more-confid2'>согласие на обработку персональных данных</a><input type='hidden' name='returncall-agreements' id='returncall-agreements' value='1'></p>
+              <div class="form__message">Сообщение отправлено!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__column">
+          <p class="footer__line"><b>Наш адрес:</b></p>
+          <p class="footer__line">г. Клин, ул. Примерная, дом 1 строение 1</p>
+          <p class="footer__line"><b>8 (800) 888-88-88</b></p>
+        </div>
+        <div class="footer__column">
+          <ul class="footer__links">
+            <li class="footer__li">
+              <a href="#" class="footer__link" data-scroll-to="buy-1"><b>Купить чай</b>🍵</a>
+            </li>
+            <li class="footer__li">
+              <a href="#" class="footer__link" data-scroll-to="buy-2"><b>Купить кофе</b>☕</a>
+            </li>
+            <li class="footer__li"> 
+              <a href="#" class="footer__link" data-scroll-to="advantages"><b>Наши преимущества</b>🧮</a>
+            </li>
+            <li class="footer__li">
+              <a href="#" class="footer__link" data-scroll-to="callback"><b>Заказать звонок</b>📞</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <p class="footer__line"><b>&copy; 2025 г. «Проект о чае и кофе»</b></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
